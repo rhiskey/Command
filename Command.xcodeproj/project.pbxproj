@@ -16,6 +16,9 @@
 		5BF11FC527AAE1400052019C /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FC427AAE1400052019C /* CommandTests.swift */; };
 		5BF11FCF27AAE1400052019C /* CommandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FCE27AAE1400052019C /* CommandUITests.swift */; };
 		5BF11FD127AAE1400052019C /* CommandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FD027AAE1400052019C /* CommandUITestsLaunchTests.swift */; };
+		5BF11FDE27AAE2B30052019C /* BaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FDD27AAE2B30052019C /* BaseCommand.swift */; };
+		5BF11FE027AAE2CA0052019C /* StringUndoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FDF27AAE2CA0052019C /* StringUndoCommand.swift */; };
+		5BF11FE227AAE2E60052019C /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11FE127AAE2E60052019C /* CommandExecutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5BF11FCA27AAE1400052019C /* CommandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11FCE27AAE1400052019C /* CommandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandUITests.swift; sourceTree = "<group>"; };
 		5BF11FD027AAE1400052019C /* CommandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11FDD27AAE2B30052019C /* BaseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCommand.swift; sourceTree = "<group>"; };
+		5BF11FDF27AAE2CA0052019C /* StringUndoCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUndoCommand.swift; sourceTree = "<group>"; };
+		5BF11FE127AAE2E60052019C /* CommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExecutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5BF11FB627AAE1400052019C /* Assets.xcassets */,
 				5BF11FB827AAE1400052019C /* LaunchScreen.storyboard */,
 				5BF11FBB27AAE1400052019C /* Info.plist */,
+				5BF11FDD27AAE2B30052019C /* BaseCommand.swift */,
+				5BF11FDF27AAE2CA0052019C /* StringUndoCommand.swift */,
+				5BF11FE127AAE2E60052019C /* CommandExecutor.swift */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			files = (
 				5BF11FB227AAE1400052019C /* ViewController.swift in Sources */,
 				5BF11FAE27AAE1400052019C /* AppDelegate.swift in Sources */,
+				5BF11FE227AAE2E60052019C /* CommandExecutor.swift in Sources */,
+				5BF11FE027AAE2CA0052019C /* StringUndoCommand.swift in Sources */,
+				5BF11FDE27AAE2B30052019C /* BaseCommand.swift in Sources */,
 				5BF11FB027AAE1400052019C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
